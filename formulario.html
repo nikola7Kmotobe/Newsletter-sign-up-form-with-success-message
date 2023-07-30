@@ -1,0 +1,27 @@
+<div class="container mt-4" > 
+    <div class="row bg-white rounded" style="height: 600px;" id="form">
+        
+        <div class="col d-flex align-items-center justify-content-center flex-column" id="div_1">
+            <h1 class="mt-4" style="font-family: 'Roboto', sans-serif; color: hsl(240deg 7.94% 24.71%); font-weight: 700;">Stay updated!</h1>
+            <p class="mt-2 f"> Join 60,000+ product managers receiving monthly updates on: </p>
+            <ul class="mt-2" >
+                <li class="d-flex"><img src="assets/images/icon-list.svg" alt="icon"> <p class="pt-3 ms-3 f">Product discovery and building what matters</p></li>
+                <li class="d-flex"><img src="assets/images/icon-list.svg" alt="icon"> <p class="pt-3 ms-3 f">Measuring to ensure updates are a success</p></li>
+                <li class="d-flex"><img src="assets/images/icon-list.svg" alt="icon"> <p class="pt-3 ms-3 f">And much more!</p></li>
+            </ul>
+
+            <div class="mb-3 w-75 mt-2" style="margin-left: -64px;">
+                <label for="exampleFormControlInput1" class="form-label f">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@company.com" maxlength="30" minlength="10" required>
+                <div class="invalid-feedback ">Valid Email required</div>
+            </div>
+            
+            <button type="button" id="btn" class="btn w-75 mb-5 f" style="color: white; background-color: hsl(240deg 7.94% 24.71%); margin-left: -64px;" onclick="validaEmail()"> Subscribe to monthly newsletter </button>
+            
+        </div>
+
+        <div class="col bg-img m-3 bg-white rounded " id="img"></div>
+
+    </div>
+
+</div>
